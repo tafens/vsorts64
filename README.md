@@ -32,32 +32,28 @@ order relative to each other when being implemented on another platform or in an
 due to the possibilities and limitations of each specific environment and language.
 
 ## Hall of Fame
-To get an idea of the effiency of each algorithm, here is a table with time and relative
-performance.
-
-The times are based on averages of multiple runs on random data, and may vary,
+The times in the table are based on averages of multiple runs on random data, and may vary,
 but the relative order should be fairly stable when the algorithms are far enough apart in
 realtive speed.
 
 | Place* | Jiffies** | Relative** | Algorithm      | Implementation details |
 |:-------|:----------|:-----------|:---------------|:-----------------------|
-| \#1    | 12000     | 1.00       | Quick Sort     | Looping, stack-based; _Hoare partitioning_ |
-|        | 12500     | 1.05       | Quick Sort     | Looping, stack-based; _Lomuto partitioning_ |
-|        | 12500     | 1.05       | Comb Sort      | Looping |
-| \#2    | 17500     | 1.46       | Heap Sort      | Looping |
-| \#3    | 19600     | 1.63       | Merge Sort     | Recursive, stack-based |
-| \#4    | 123000    | 10.25      | Selection Sort | Looping |
-| \#5    | 130000    | 10.83      | Insertion Sort | Looping |
-| \#6    | 270000    | 22.5       | Bubble Sort    | Looping |
-|        | 270000    | 22.5       | Bi-Bubble Sort | Looping, bidirectional |
+|        |           |            | Quick Sort H   | Stack-based iterative; Hoare partitioning |
+|        |           |            | Quick Sort L   | Stack-based iterative; Lomuto partitioning |
+|        |           |            | Comb Sort      | Iterative |
+|        |           |            | Heap Sort      | Iterative |
+|        |           |            | Merge Sort     | Recursive (GOSUB) |
+|        |           |            | Selection Sort | Iterative |
+|        |           |            | Insertion Sort | Iterative |
+|        |           |            | Bubble Sort    | Iterative |
+|        |           |            | Bi-Bubble Sort | Iterative (bidirectional) |
 
 \*) When the times are erasonably close, algorithms are grouped in the same place.<br/>
 \**) Jiffies and relative speed are based on averages of multiple runs on random data.
 
 ## Further reading
 For more details about the algorithms, this article on Wikipedia is a good starting point,
-and contains links to more in-depth information about each algorithm that were the basis
-for most of the implementations here:
+and contains links to more in-depth information about each algorithm:
 
 https://en.wikipedia.org/wiki/Sorting_algorithm
 
