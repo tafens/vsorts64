@@ -17,6 +17,8 @@ does not depend on the data being sorted.
 # BASIC code
 Two arrays are being used as a stack for start- and end-indices to manage the boundaries
 of the sub-divided partitions, in conjunction with GOSUB to handle the recursion.
+The seemingly strange jump in line numbering to 550 is an optmization for the BASIC
+interpreter to find the line number quicker.
 
 Before the sort is started, the stack array is initialized with the start- and
 end-indices of the entire array to be sorted: ```s(0)=1024:e(0)=1823:d=0```.
