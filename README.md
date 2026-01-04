@@ -36,9 +36,9 @@ due to the possibilities and limitations of each specific environment and langua
 To run the programs, you need a real Commodore C64 or an emulator.
 LOAD the prg-file and RUN: LIST, tinker and have fun!
 
-If using an emulator, most will support dropping the file on it to load. Id must be noted
+If using an emulator, most will support dropping the file on it to load. It must be noted
 that an emulator is highly recommended, as without some form of warp-mode watching some of
-these algorithmd will be incredibly tedious.
+these algorithms will be incredibly tedious.
 
 ## Hall of Fame
 The times in the table are based on averages of multiple runs on random data, and may
@@ -52,11 +52,11 @@ speeds are not to be taken as a general rule for comparison.
 
 | Place* | Jiffies** | Relative** | Algorithm      | Implementation details |
 |:-------|:----------|:-----------|:---------------|:-----------------------|
-|        |           |            | Quick Sort H   | Stack-based iterative; Hoare partitioning |
-|        |           |            | Quick Sort L   | Stack-based iterative; Lomuto partitioning |
+| \#1    | 11200     | 1.00       | Quick Sort L   | Stack-based iterative; Lomuto partitioning |
+|        | 11600     | 1.04       | Quick Sort H   | Stack-based iterative; Hoare partitioning |
 |        |           |            | Comb Sort      | Iterative |
 |        |           |            | Heap Sort      | Iterative |
-|        |           |            | Merge Sort     | Recursive (GOSUB) |
+|        |           |            | Merge Sort     | Recursive (top-down) |
 |        |           |            | Selection Sort | Iterative |
 |        |           |            | Insertion Sort | Iterative |
 |        |           |            | Bubble Sort    | Iterative |
