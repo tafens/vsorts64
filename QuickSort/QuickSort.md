@@ -8,7 +8,7 @@ array is sorted.
 
 ## Complexity
 The best and average time complexity is O(n*log(n)), though it can degenerate to a worst-case
-of O(n^2^) if the choosen pivot is consistently bad and results in severly unbalanced partitions.
+of O(n^2) if the choosen pivot is consistently bad and results in severly unbalanced partitions.
 
 
 # BASIC code
