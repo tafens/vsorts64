@@ -1,28 +1,21 @@
 # Quick Sort
 
-## Abstract
+## Description
 The quick sort algorithm selects a pivot element and partitions the array so that all smaller
 elements are on one side and larger elements on the other. It then recursively applies the
 same process to each partition until all partitions contain single elements, and then the
 array is sorted.
 
 ## Complexity
-The average time complexity is O(n*log(n)), though it can degenerate to a worst-case of O(n²)
-if the choosen pivot is consistently bad and results in severly unbalanced partitions.
+The best and average time complexity is O(n*log(n)), though it can degenerate to a worst-case
+of O(n^2^) if the choosen pivot is consistently bad and results in severly unbalanced partitions.
 
 
 # BASIC code
 Both implementations are iterative and use two arrays as a stack for start- and end-indices
 to manage the boundaries of the sub-divided partitions.
-Moreover, FOR loops are used more like do/while-constructs by manipulating the loop variable
+Some FOR loops are used more like do/while-constructs by manipulating the loop variable
 inside the loop body to keep running or breaking out of the loop when needed.
-
-## A note of FOR/NEXT loops
-In C64 BASIC, the FOR statement calculates the start and end values before the loop
-starts and the NEXT statement checks if the loop variable currently is at the end value.
-If it is not, the STEP-value is added and the loop continues from the top.
-If it is, execution instead continues directly after the NEXT-statement without adding the STEP-value. 
-As an effect of this logic, a FOR loop will run at least one iteration regardless of its start and end values.
 
 ## Lomuto Quick Sort
 Lomuto partitioning uses two pointers starting at the beginning, one always incrementing
