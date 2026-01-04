@@ -55,8 +55,8 @@ speeds are not to be taken as a general rule for comparison.
 | \#1    | 11200     | 1.00       | Quick Sort L   | Stack-based iterative; Lomuto partitioning |
 |        | 11600     | 1.04       | Quick Sort H   | Stack-based iterative; Hoare partitioning |
 | \#2    | 12500     | 1.12       | Comb Sort      | Iterative |
+| \#3    | 16200     | 1.45       | Merge Sort     | Recursive (top-down) |
 |        |           |            | Heap Sort      | Iterative |
-|        |           |            | Merge Sort     | Recursive (top-down) |
 |        |           |            | Selection Sort | Iterative |
 |        |           |            | Insertion Sort | Iterative |
 |        |           |            | Bubble Sort    | Iterative |
