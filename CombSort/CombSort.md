@@ -12,8 +12,8 @@ pass until it reaches 1. It then continues with a gap of 1 until no more swaps h
 in the last pass, at which time the array is fully sorted.
 
 ## Complexity
-The best case time complexity is O(n*log(n)), on average O(n^2^/2^p^) where p is the number
-of gap distances used, and the worst-case is O(n^2^), like Bubble sort. Howerver, it is
+The best case time complexity is O(n*log(n)), on average O(n^2 / 2^p) where p is the number
+of gap distances used, and the worst-case is O(n^2), like Bubble sort. Howerver, it is
 remarkably fast given it simplicity, and seems to perform close to the best case more
 often than not.
 
