@@ -58,7 +58,7 @@ speeds are not to be taken as a general rule for comparison.
 | \#3    | 16200     | 1.45       | Merge Sort     | Recursive (top-down) |
 | \#4    | 17800     | 1.59       | Heap Sort      | Iterative |
 | \#5    | 97300     | 8.69       | Selection Sort | Iterative |
-|        |           |            | Insertion Sort | Iterative |
+| \#6    | 131000    | 11.7       | Insertion Sort | Iterative |
 |        |           |            | Bubble Sort    | Iterative |
 |        |           |            | Bi-Bubble Sort | Iterative (bidirectional) |
 
