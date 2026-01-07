@@ -78,5 +78,16 @@ If you want to contribute with more sorting algorithms, please feel free to subm
 with your implementation or variant. A skeleton demonstration program is provided in the repository 
 so only the sorting algorithm itself needs to be implemented.
 
+The skeleton program is avaliable as "skeleton.prg" (loadable directly on a C64 or emulator) and
+as "skeleton.bas" (the BASIC source code file, as converted from and re-convertable back to prg by
+using the BasText tool - see the acknowledgements section below).
+
 Keep in mind that the goal is to visualize the sorting process in a reasonably readable and clear
 way, given the limitations of the BASIC language on the Commodore C64.
+
+
+# Acknowledgments
+
+The excellent tool [BasText](https://github.com/nafmo/bastext) by [@nafmo](https://github.com/nafmo)
+was used to convert the BASIC source code of the sorting algorithms into the documentation file for
+each one.
