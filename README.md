@@ -59,8 +59,8 @@ speeds are not to be taken as a general rule for comparison.
 | \#4    | 17800     | 1.59       | Heap Sort      | Iterative |
 | \#5    | 97300     | 8.69       | Selection Sort | Iterative |
 | \#6    | 131000    | 11.7       | Insertion Sort | Iterative |
+| \#7    | 219000    | 19.6       | Cocktail Sort  | Iterative |
 |        |           |            | Bubble Sort    | Iterative |
-|        |           |            | Bi-Bubble Sort | Iterative (bidirectional) |
 
 \*) When the times are reasonably close, algorithms are grouped in the same place.<br/>
 \**) Jiffies and relative speed are based on averages of multiple runs on random data.
