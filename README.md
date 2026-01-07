@@ -33,8 +33,8 @@ order relative to each other when being implemented on another platform or in an
 due to the possibilities and limitations of each specific environment and language.
 
 ## Running the programs
-To run the programs, you need a real Commodore C64 or an emulator.
-LOAD the prg-file and RUN: LIST, tinker and have fun!
+To run the programs, you need a real Commodore C64 or an emulator.<br/>
+**LOAD the program and RUN: LIST, tinker and have fun!**
 
 If using an emulator, most will support dropping the file on it to load. It must be noted
 that an emulator is highly recommended, as without some form of warp-mode watching some of
@@ -50,20 +50,19 @@ differ. Also, the randomness of the data may have resulted in more or less advan
 runs for one or more of the algorithms during the timing. As such, the times and relative
 speeds are not to be taken as a general rule for comparison.
 
-| Place* | Jiffies** | Relative** | Algorithm      | Implementation details |
+| Place  | Jiffies*  | Relative*  | Algorithm      | Implementation details |
 |:-------|:----------|:-----------|:---------------|:-----------------------|
 | \#1    | 11200     | 1.00       | Quick Sort L   | Stack-based iterative; Lomuto partitioning |
-|        | 11600     | 1.04       | Quick Sort H   | Stack-based iterative; Hoare partitioning |
-| \#2    | 12500     | 1.12       | Comb Sort      | Iterative |
-| \#3    | 16200     | 1.45       | Merge Sort     | Recursive (top-down) |
-| \#4    | 17800     | 1.59       | Heap Sort      | Iterative |
-| \#5    | 97300     | 8.69       | Selection Sort | Iterative |
-| \#6    | 131000    | 11.7       | Insertion Sort | Iterative |
-| \#7    | 219000    | 19.6       | Cocktail Sort  | Iterative |
-| \#8    | 287000    | 25.6       | Bubble Sort    | Iterative |
+| \#2    | 11600     | 1.04       | Quick Sort H   | Stack-based iterative; Hoare partitioning |
+| \#3    | 12500     | 1.12       | Comb Sort      | Iterative |
+| \#4    | 16200     | 1.45       | Merge Sort     | Recursive (top-down) |
+| \#5    | 17800     | 1.59       | Heap Sort      | Iterative |
+| \#6    | 97300     | 8.69       | Selection Sort | Iterative |
+| \#7    | 131000    | 11.7       | Insertion Sort | Iterative |
+| \#8    | 219000    | 19.6       | Cocktail Sort  | Iterative |
+| \#7    | 287000    | 25.6       | Bubble Sort    | Iterative |
 
-\*) When the times are reasonably close, algorithms are grouped in the same place.<br/>
-\**) Jiffies and relative speed are based on averages of multiple runs on random data.
+\*) Jiffies and relative speed are based on averages of multiple runs on random data.
 
 ## Further reading
 For more details about the algorithms, this article on Wikipedia is a good starting point,
@@ -87,6 +86,10 @@ way, given the limitations of the BASIC language on the Commodore C64.
 
 
 # Acknowledgments
+
+This work was inspired by the annual Christmas BASIC Programming Contest 2025 by Holger Weﬂling
+in the Facebook group "BASIC Programming Language", specifically the December 4, 2025 challange:
+"Screen Sort".
 
 The excellent tool [BasText](https://github.com/nafmo/bastext) by [@nafmo](https://github.com/nafmo)
 was used to convert the BASIC source code of the sorting algorithms into the documentation file for
