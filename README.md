@@ -50,19 +50,24 @@ differ. Also, the randomness of the data may have resulted in more or less advan
 runs for one or more of the algorithms during the timing. As such, the times and relative
 speeds are not to be taken as a general rule for comparison.
 
-| Place  | Jiffies*  | Relative*  | Algorithm      | Implementation details |
-|:-------|:----------|:-----------|:---------------|:-----------------------|
-| \#1    | 11200     | 1.00       | Quick Sort L   | Stack-based iterative; Lomuto partitioning |
-| \#2    | 11600     | 1.04       | Quick Sort H   | Stack-based iterative; Hoare partitioning |
-| \#3    | 12500     | 1.12       | Comb Sort      | Iterative |
-| \#4    | 16200     | 1.45       | Merge Sort     | Recursive (top-down) |
-| \#5    | 17800     | 1.59       | Heap Sort      | Iterative |
-| \#6    | 97300     | 8.69       | Selection Sort | Iterative |
-| \#7    | 131000    | 11.7       | Insertion Sort | Iterative |
-| \#8    | 219000    | 19.6       | Cocktail Sort  | Iterative |
-| \#9    | 287000    | 25.6       | Bubble Sort    | Iterative |
+ Jiffies are measured in 1/60s of a second, the resolution of the
+ C64 BASIC system timer, accessible through the pseudo-variable TI,
+ often used for time measurements in BASIC.
 
-\*) Jiffies and relative speed are based on averages of multiple runs on random data.
+| Place | Jiffies* | Rel* | Algorithm      | Implementation |
+|:------|---------:|-----:|:---------------|:---------------|
+| \#1   | 11200    | 1.00 | Quick Sort L   | Stack-based iterative; Lomuto partitioning |
+| \#2   | 11600    | 1.04 | Quick Sort H   | Stack-based iterative; Hoare partitioning |
+| \#3   | 12500    | 1.12 | Comb Sort      | Iterative |
+| \#4   | 16200    | 1.45 | Merge Sort     | Recursive (top-down) |
+| \#5   | 17800    | 1.59 | Heap Sort      | Iterative |
+| \#6   | 97300    | 8.69 | Selection Sort | Iterative |
+| \#7   | 131000   | 11.7 | Insertion Sort | Iterative |
+| \#8   | 219000   | 19.6 | Cocktail Sort  | Iterative |
+| \#9   | 287000   | 25.6 | Bubble Sort    | Iterative |
+
+\*) Jiffies and relative speed are based on averages of multiple runs on random data,
+    which may vary.
 
 ## Further reading
 For more details about the algorithms, this article on Wikipedia is a good starting point,
