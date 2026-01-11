@@ -60,7 +60,7 @@ speeds are not to be taken as a general rule for comparison.
 | \#6    | 97300     | 8.69       | Selection Sort | Iterative |
 | \#7    | 131000    | 11.7       | Insertion Sort | Iterative |
 | \#8    | 219000    | 19.6       | Cocktail Sort  | Iterative |
-| \#7    | 287000    | 25.6       | Bubble Sort    | Iterative |
+| \#9    | 287000    | 25.6       | Bubble Sort    | Iterative |
 
 \*) Jiffies and relative speed are based on averages of multiple runs on random data.
 
