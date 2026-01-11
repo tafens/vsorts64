@@ -88,7 +88,7 @@ way, given the limitations of the BASIC language on the Commodore C64.
 # Acknowledgments
 
 This work was inspired by the annual Christmas BASIC Programming Contest 2025 by Holger Weﬂling
-in the Facebook group "BASIC Programming Language", specifically the December 4, 2025 challange:
+in the Facebook group "BASIC Programming Language", specifically the December 4, 2025 challenge:
 "Screen Sort".
 
 The excellent tool [BasText](https://github.com/nafmo/bastext) by [@nafmo](https://github.com/nafmo)
